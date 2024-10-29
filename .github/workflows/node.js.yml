@@ -34,3 +34,4 @@ jobs:
       with:
         name: Build
         path: dist
+    - run: zip -r build.zip build/
